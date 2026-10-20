@@ -1,7 +1,0 @@
-WARNING:root:yara not available; YARA scanning disabled
-WARNING:root:yara not available; YARA scanning disabled
-INFO:root:{"ip": "127.0.0.1", "issues": ["SQLi detected", "SQLi", "ML Anomaly (score: -0.06)"], "timestamp": "Sat Jan 17 15:57:32 2026", "score": -0.05794903826922637}
-INFO:root:{"ip": "127.0.0.1", "issues": ["ML Anomaly (score: -0.04)"], "timestamp": "Sat Jan 17 16:00:21 2026", "score": -0.04355442885907157}
-INFO:root:{"ip": "127.0.0.1", "issues": ["ML Anomaly (score: -0.14)"], "timestamp": "Sat Jan 17 16:09:36 2026", "score": -0.14429727339635412}
-INFO:root:{"ip": "127.0.0.1", "issues": ["SQLi detected", "SQLi", "ML Anomaly (score: -0.05)"], "timestamp": "Sat Jan 17 16:09:42 2026", "score": -0.04608881794501307}
-INFO:root:{"ip": "127.0.0.1", "issues": ["ML Anomaly (score: -0.16)"], "timestamp": "Sat Jan 17 16:45:21 2026", "score": -0.1623616477699079}

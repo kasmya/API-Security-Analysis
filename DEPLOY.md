@@ -22,7 +22,7 @@ vercel login
 
 ### 3. Deploy
 ```bash
-cd /Users/kasmyabhatia/Desktop/api\ security\ analyser
+cd api-security-analyser-dashboard
 vercel
 ```
 
@@ -33,7 +33,7 @@ vercel --prod
 
 ## Project Structure
 ```
-api-security-analyser/
+api-security-analyser-dashboard/
 ├── api/
 │   └── index.py          # Serverless API function
 ├── static/

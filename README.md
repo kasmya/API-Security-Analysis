@@ -210,7 +210,6 @@ Serves the dashboard interface.
 ### Local Development
 
 ```bash
-cd "api security analyser"
 pip install -r requirements.txt
 python main.py
 ```
@@ -229,6 +228,29 @@ python evaluate.py
 npm i -g vercel
 vercel --prod
 ```
+
+---
+
+## 📁 Project Structure
+
+```
+api-security-analyser-dashboard/
+├── main.py              # Local FastAPI server (uvicorn)
+├── api/
+│   └── index.py          # Vercel serverless entrypoint
+├── static/
+│   ├── style.css         # Dashboard styles
+│   └── script.js         # Frontend JavaScript
+├── templates/
+│   └── index.html        # Dashboard HTML (Jinja2)
+├── evaluate.py           # Detection performance evaluation script
+├── requirements.txt      # Python dependencies
+├── vercel.json           # Vercel deployment config
+├── DEPLOY.md             # Vercel deployment guide
+└── README.md             # This file
+```
+
+`anomalies.log` is generated at runtime (gitignored), not tracked in the repo.
 
 ---
 
